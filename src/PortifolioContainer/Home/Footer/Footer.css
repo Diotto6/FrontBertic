@@ -1,0 +1,26 @@
+.footer-container {
+    height: 17.8%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-image: url('./shape-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .foorer-parent {
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+  }
+  .footer-parent {
+    max-width: 100%;
+    height: 130px;
+  }
+  
+  @media only screen and (max-width: 1110px) {
+    .footer-parent {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
